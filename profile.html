@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Профиль</title>
+  <link rel="stylesheet" href="css/style3.css">
+</head>
+<body>
+  <div class="container">
+    <h4 class="dobbys">Имя Пользователя: Валерия Морозова</h4>
+    <main>
+      <form >
+        <fieldset>
+          <legend>Бронирование</legend>
+          <label>Дата вылета:</label>
+          <div class="one-third-width">
+            <label>Число</label>
+            <input type="number" min="1" max="31" name="day" value="1">
+          </div>
+          <div class="two-third-width">
+            <label>Месяц</label>
+            <input type="month" name="month" value="2022-12">
+          </div>
+          <label>Время вылета/Время прилета:</label>
+          <div class="one-third-width">
+            <input type="text" placeholder="00:00">
+          </div>
+          <div class="one-third-width">
+            <input type="text" placeholder="23:59">
+          </div>
+          <label>Аэропорт вылета:</label>
+          <input type="search" name="search" value="FlightPool, Москва, Россия">
+          <label>Аэропорт прилета:</label>
+          <input type="search" name="search" value="FlightPool, Санкт-Петербург, Россия">
+          <div class="half-width">
+          <div class="buttons"><a class="button" href="#">Забронировать</a></div>
+          </div>
+          <div class="half-width">
+            <div class="buttons"><a class="button" href="index.html">Выйти</a>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+    </main>
+  </div>
+</body>
+</html>

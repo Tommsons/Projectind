@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+}
+.hero {
+    background: linear-gradient(180deg, #E0FFFF,#87CEFA);
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    justify-content: space-around;
+}
+.logo {
+    width: 100px;
+    height: 50px;
+}
+.poisk {
+    width:750px;
+    background: white;
+    margin: 0;
+    border: #66687271;
+    height: 25px;
+}
+.menu {
+    align-items: center;
+}
+.button1 {
+    width: 140px;
+    height: 40px;
+    background: linear-gradient(to left, #a4d3db, #72d3d3);
+    box-shadow: 0px 4px 0px #72d3d3;
+    border-radius: 2px 2px 5px 5px;
+    border: #a4d3db;
+}
+.vhodvkab {
+    color: #314dce;
+    text-align: center;
+}
+.vhodvkab, .contacts, .action {
+    color: #314dce;
+    text-decoration: none;
+    align-items: center;
+    padding-right: 20px;
+}
+.slogan {
+    background: white;
+    padding: 20px 20px;
+    margin-top: 70px;
+}
+.slogan-text {
+    padding: 45px 25px;
+    margin: none;
+    white-space: normal;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.action-tittle {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.action-image {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+}
+.contact {
+    display: flex;
+    justify-content: space-between;
+    background: #8ab9dc;
+    background-repeat: no-repeat;
+}
+.contact {
+    padding: 50px 20px;
+}
+.number {
+    margin-left:20%;
+    margin-right: 20%;
+}
+.mail {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.doverie {
+    width: 1000px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.doverie-image {
+    width: 500px;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.doverie-tittle {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.doverie-subtittle {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.zakrtactions {
+    background: #5ba6df;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.zakrtactions-tittle {
+    text-align: center;
+}
+.mailvvod {
+    width: 100px;
+    background: white;
+    border: #cecfd571;
+    height: 20px;
+    border-radius: 2px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.podpiska {
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+    7px 7px 20px 0px rgba(0, 0, 0, .1),
+    4px 4px 5px 0px rgba(0, 0, 0, .1);
+    outline: none;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.knopka {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: rgb(0, 172, 238);
+    background: linear-gradient(0deg, rgba(0, 172, 238, 1) 0%, rgba(2, 126, 251, 1) 100%);
+    width: 130px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+}
+.podval {
+    margin-top: 200px;
+    background: #5ba6df;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display:flex
+}
+.numbr-podval {
+    color: #fff;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+.social-image {
+    margin-right: 5px;
+}

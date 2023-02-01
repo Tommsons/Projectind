@@ -1,0 +1,122 @@
+body {
+  background-image: url(../image/oblaka-fon.jpg);
+  background-repeat: no-repeat;
+}
+.container {
+  width: 600px;
+  height: 600px;
+  border: 1px solid rgb(246, 222, 163);
+  background-color: rgb(246, 222, 163);
+  border-radius: 15px;
+  margin: auto;
+}
+.dobby {
+  text-align: center;
+  padding: 20px 0px;
+}
+.dobbys {
+  text-align: center;
+  background: rgb(246, 234, 186);
+  padding: 20px 0px;
+}
+form {
+  margin: 0 auto;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  background-color: rgb(246, 234, 186);
+}
+fieldset {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #918248;
+}
+fieldset legend {
+  color: #6a6a36;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+input {
+  margin-bottom: 10px;
+  width: 95%;
+  height: 24px;
+}
+output {
+  display: inline-block;
+  margin: 0 5px 10px;
+  width: 30px;
+  height: 20px;
+  text-align: center;
+  padding: 2px 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  vertical-align: middle;
+  font-family: "Roboto";
+}
+input[type="submit"] {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 6px 15px;
+  width: auto;
+  height: auto;
+  border: none;
+  border-radius: 5px;
+  background: #2c3e50;
+  color: #fff;
+}
+.one-third-width {
+  width: 33.3%;
+}
+.two-third-width {
+  width: 66.6%;
+}
+.half-width {
+  width: 50%;
+}
+.one-third-width,
+.two-third-width,
+.half-width {
+  display: inline-block;
+  margin-right: -4px;
+}
+.one-third-width input,
+.two-third-width input {
+  width: 80%;
+}
+.half-width input {
+  width: 80%;
+}
+
+.half-width input[type="range"] {
+  width: 50%;
+}
+
+.output-area {
+  vertical-align: top;
+}
+.buttons {
+  margin-top: 10px;
+  text-align: center;
+}
+.button {
+  background: #adaa72;
+  padding: 8px;
+  border-radius: 2px;
+  text-decoration: none;
+  font-family: Roboto;
+  line-height: 1;
+  font-weight: 100;
+}
+.exid {
+  background: #adaa72;
+  padding: 8px;
+  border-radius: 2px;
+  text-decoration: none;
+  font-family: Roboto;
+  line-height: 1;
+  font-weight: 100;
+  margin-top: 10px;
+  text-align: center;
+}
